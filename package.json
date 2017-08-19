@@ -9,6 +9,7 @@
   "author": "Robert Corey <robertbcorey@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^4.5.0",
     "puppeteer": "^0.9.0"
   }
 }
