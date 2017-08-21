@@ -39,5 +39,5 @@ const credentials = require('./credentials');
   await login();
   let data = await scrapePage();
   fs.writeFileSync('./data', JSON.stringify(data, null, 2));
-  browser.close();
+  // browser.close();
 })();
